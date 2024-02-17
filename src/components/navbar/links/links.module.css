@@ -1,0 +1,48 @@
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logout{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.mobileLinks{
+   display: none;
+}
+
+.menuBtn{
+display: none;
+}
+
+@media (max-width:760px)
+{
+    .links{
+        display: none;
+    }
+    .mobileLinks{
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+.menuBtn{
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+}

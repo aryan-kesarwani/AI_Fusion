@@ -1,0 +1,14 @@
+
+.container{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: var(--bg);
+    z-index: 999;
+    width: 84%;
+}
+.logo{ 
+    margin-top: 1em;
+}

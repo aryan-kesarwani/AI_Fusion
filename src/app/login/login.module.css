@@ -1,0 +1,53 @@
+.container{
+        height: 491px;
+        width: 500px;
+        /* background-color: white; */
+        border: 2px solid white;
+        position: absolute;
+        top: 24%;
+        left: 37%;
+        transform: translate(-50%,-505);
+        padding: 0 20px  20px;
+        border-radius: 20px;
+}
+
+/* login.module.css */
+
+  
+  .main {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .inpo {
+    margin-bottom: 15px;
+  }
+  
+  .inpo {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    background-color: #007bff; /* Set your desired button color */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: 10px;
+
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Set your desired button hover color */
+  }
+  

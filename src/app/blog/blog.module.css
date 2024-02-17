@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    top: 5rem;
+}
+.post{
+    width: 30%;
+}
+@media screen and (max-width: 1200px)
+{
+    .post{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .post{
+        width: 100%;
+    }
+}
