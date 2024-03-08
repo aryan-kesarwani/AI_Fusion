@@ -25,6 +25,5 @@ This project aims to automate drone delivery assistance in war zones to aid thos
 - TensorFlow
 - Google Earth Engine Python API
 - Flask (for web interface)
-- Other dependencies (specified in `requirements.txt`)
 
 
